@@ -1,0 +1,73 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+}
+
+*,
+*::after,
+*::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  margin: 100px;
+}
+
+.title__content {
+  display: block;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.title__content::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #000;
+  margin: 30px 0 30px;
+}
+
+.content {
+  display: flex;
+}
+.content .section__left {
+  width: 40%;
+  background-color: #202026;
+}
+.content .section__left .image {
+  height: 1097px;
+}
+.content .section__right {
+  width: 60%;
+}
+.content .section__right .name__container {
+  margin: 150px 0;
+  padding: 100px 0 200px;
+  width: 100%;
+  background-color: #fecb00;
+  text-align: left;
+}
+.content .section__right .name__container .container {
+  margin: 0 100px;
+}
+.content .section__right .name__container .container .name {
+  font-size: 65px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.content .section__right .name__container .container .name span {
+  font-weight: 800;
+}
+.content .section__right .name__container .container .profession {
+  text-transform: uppercase;
+  font-size: 35px;
+}/*# sourceMappingURL=style.css.map */
